@@ -1,3 +1,6 @@
 [submodule "third-party/gtest"]
 	path = third-party/gtest
 	url = https://github.com/google/googletest
+[submodule "banking/third-party/gtest"]
+	path = banking/third-party/gtest
+	url = https://github.com/google/googletest
