@@ -1,0 +1,11 @@
+language: cpp
+script:
+- cmake formatter_ex_lib
+- cmake --build formatter_ex_lib
+addons:
+  apt:
+    sources:
+      - george-edison55-precise-backports
+    packages:
+      - cmake
+      - cmake-data
