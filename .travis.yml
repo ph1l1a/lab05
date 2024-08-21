@@ -1,7 +1,10 @@
 language: cpp
+
 script:
-- cmake formatter_ex_lib
-- cmake --build formatter_ex_lib
+- cd formatter_ex_lib
+- cmake .
+- cmake --build .
+
 addons:
   apt:
     sources:
